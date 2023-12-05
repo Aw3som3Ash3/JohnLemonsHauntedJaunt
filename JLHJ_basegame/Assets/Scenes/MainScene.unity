@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gargoyle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6951495027125010822, guid: ec60c5f424de3ab45b98cac5fd91015f, type: 3}
+      propertyPath: m_TagString
+      value: ghost
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec60c5f424de3ab45b98cac5fd91015f, type: 3}
 --- !u!1 &109539770
@@ -476,6 +480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gargoyle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6951495027125010822, guid: ec60c5f424de3ab45b98cac5fd91015f, type: 3}
+      propertyPath: m_TagString
+      value: ghost
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec60c5f424de3ab45b98cac5fd91015f, type: 3}
 --- !u!1 &705507993
@@ -570,7 +578,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 30, y: 20, z: 0}
 --- !u!1 &744663819
 GameObject:
@@ -3681,7 +3689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3674741053973066913, guid: 549c69af39b84624b8a053537c407def, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3674741053973066913, guid: 549c69af39b84624b8a053537c407def, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5012,6 +5020,14 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 1599456854}
+    - target: {fileID: 8762879954288836813, guid: 73b975b9013a19a469fd10b9a2bf3a8d, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762879954288836813, guid: 73b975b9013a19a469fd10b9a2bf3a8d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73b975b9013a19a469fd10b9a2bf3a8d, type: 3}
 --- !u!195 &3006831369657596523 stripped

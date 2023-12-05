@@ -5,12 +5,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
+    public float speed = 1;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
     AudioSource m_AudioSource;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
+
 
     void Start()
     {
@@ -24,8 +26,20 @@ public class PlayerMovement : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = 2f;
+        }
+        else
+        {
+            speed = 1f;
+        }
+
+        horizontal = horizontal * speed;
+        vertical = vertical * speed;
+
         m_Movement.Set(horizontal, 0f, vertical);
-        m_Movement.Normalize();
+        //m_Movement.Normalize();
 
         bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
         bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
