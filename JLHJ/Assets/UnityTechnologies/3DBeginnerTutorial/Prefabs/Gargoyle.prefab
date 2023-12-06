@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6951495027121900674}
   m_Layer: 0
   m_Name: GargoyleModel
-  m_TagString: Untagged
+  m_TagString: ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 3940273089516934856}
   m_Layer: 0
   m_Name: Gargoyle
-  m_TagString: Untagged
+  m_TagString: ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,6 +210,10 @@ PrefabInstance:
     - target: {fileID: 1759745980286831646, guid: f55a63ad5b00c744e8b5ed01d72ca1ab, type: 3}
       propertyPath: m_Name
       value: PointOfView
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759745980286831646, guid: f55a63ad5b00c744e8b5ed01d72ca1ab, type: 3}
+      propertyPath: m_TagString
+      value: pov
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55a63ad5b00c744e8b5ed01d72ca1ab, type: 3}

@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float bulletSpeed = 3f;
-    public float bulletMove;
+    public float bulletSpeed = 5f;
+    float bulletMove;
+    public float bulletLife = 5f;
 
     void Start()
     {
         bulletMove = bulletSpeed * Time.deltaTime;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         transform.Translate(0, 0, bulletMove);
+
+        Destroy(gameObject, bulletLife);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,11 +35,13 @@ public class Bullet : MonoBehaviour
         {
             return;
         }
+        else if (other.tag == "pov")
+        {
+            return;
+        }
         else
         {
             Destroy(gameObject);
         }
-
-        Destroy(gameObject, 3f);
     }
 }

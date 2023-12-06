@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ghost
   - bullet
+  - pov
   layers:
   - Default
   - TransparentFX
