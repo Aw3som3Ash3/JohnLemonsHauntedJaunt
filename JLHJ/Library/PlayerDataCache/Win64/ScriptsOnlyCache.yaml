@@ -1,14 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - Bullet
     - GameEnding
     - LightFlicker
     - Observer
     - PlayerMovement
-    - Readme
     - Shooter
     - WaypointPatrol
     Cinemachine.dll:
@@ -130,47 +127,47 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1680}
+      Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 2524}
+      Script: {instanceID: 2462}
     - Class: 114
-      Script: {instanceID: 2644}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2688}
+      Script: {instanceID: 2626}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 3114}
+      Script: {instanceID: 3052}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 3546}
+      Script: {instanceID: 3484}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3632}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 4882}
+      Script: {instanceID: 4820}
     - Class: 114
-      Script: {instanceID: 5046}
+      Script: {instanceID: 4984}
     - Class: 114
-      Script: {instanceID: 5078}
+      Script: {instanceID: 5016}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 5150}
     - Class: 114
-      Script: {instanceID: 5358}
+      Script: {instanceID: 5296}
     - Class: 114
-      Script: {instanceID: 5892}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 7472}
+      Script: {instanceID: 7410}
     - Class: 114
-      Script: {instanceID: 7764}
+      Script: {instanceID: 7702}
     - Class: 114
-      Script: {instanceID: 7818}
+      Script: {instanceID: 7756}
     - Class: 114
-      Script: {instanceID: 8212}
+      Script: {instanceID: 8150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -930,7 +927,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: b33ed7df2eb207a9b4ef7aa0bd2fba40
+      Hash: bc2250cf2e531a7df7a198d738ffb050
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet
@@ -1429,5 +1426,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/Users/Emily/Documents/GitHub/JohnLemonsHauntedJaunt/JLHJ_basegame/Modded_build/John
-    Lemon's Haunted Jaunt.exe
+  playerPath: G:/Repos/JohnLemonsHauntedJaunt/JLHJ Builds/John Lemon's Haunted Jaunt.exe
